@@ -6,6 +6,8 @@
     "react/prop-types": "off",
     "no-console": "off",
     "react/prefer-stateless-function": "off",
+    // "parser": "@babel/eslint-parser",
+    "jsx-a11y/label-has-associated-control": "off",
     "react/function-component-definition": [
       2,
       {
