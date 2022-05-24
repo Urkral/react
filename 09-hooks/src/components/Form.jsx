@@ -12,8 +12,8 @@ const Form = () => {
     const val = e.target.value;
     const key = e.target.name;
     setSignup((prev) => {
-      //   console.log(prev);
-      //   console.log(val, key);
+      console.log(prev);
+      console.log(val, key);
 
       const newState = {
         ...prev,

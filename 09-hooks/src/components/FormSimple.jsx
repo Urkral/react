@@ -26,7 +26,7 @@ const FormSimple = () => {
           className="block w-full px-2 py-1 mt-1 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
           id="search"
           name="search"
-          red={search}
+          value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
       </div>
