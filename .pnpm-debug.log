@@ -1,0 +1,20 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "shortMessage": "Command failed with exit code 1: /tmp/dlx-4926/bin/create-next-app .",
+    "command": "/tmp/dlx-4926/bin/create-next-app .",
+    "escapedCommand": "\"/tmp/dlx-4926/bin/create-next-app\" .",
+    "exitCode": 1,
+    "failed": true,
+    "timedOut": false,
+    "isCanceled": false,
+    "killed": false,
+    "err": {
+      "name": "pnpm",
+      "message": "Command failed with exit code 1: /tmp/dlx-4926/bin/create-next-app .",
+      "stack": "pnpm: Command failed with exit code 1: /tmp/dlx-4926/bin/create-next-app .\n    at makeError (/home/urkral/.volta/tools/image/packages/pnpm/lib/node_modules/pnpm/dist/pnpm.cjs:42606:17)\n    at handlePromise (/home/urkral/.volta/tools/image/packages/pnpm/lib/node_modules/pnpm/dist/pnpm.cjs:43177:33)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async Object.handler (/home/urkral/.volta/tools/image/packages/pnpm/lib/node_modules/pnpm/dist/pnpm.cjs:177929:7)\n    at async /home/urkral/.volta/tools/image/packages/pnpm/lib/node_modules/pnpm/dist/pnpm.cjs:182617:21\n    at async run (/home/urkral/.volta/tools/image/packages/pnpm/lib/node_modules/pnpm/dist/pnpm.cjs:182591:34)\n    at async runPnpm (/home/urkral/.volta/tools/image/packages/pnpm/lib/node_modules/pnpm/dist/pnpm.cjs:182810:5)\n    at async /home/urkral/.volta/tools/image/packages/pnpm/lib/node_modules/pnpm/dist/pnpm.cjs:182802:7"
+    }
+  }
+}
